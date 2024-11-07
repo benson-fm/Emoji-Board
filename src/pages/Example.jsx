@@ -34,6 +34,7 @@ const moods = [
 const backgroundBoardColor = "bg-white";
 const outerOutlineColor = "border-gray-200"
 const outlineColor = "border-black"; 
+const outlineDefaultColor = "border-slate-200"
 const hoverColor = "hover:bg-slate-100";
 const textColor = "text-black";
 
@@ -52,7 +53,7 @@ export default function Example() {
               <button
                 key={mood.label}
                 className={`h-24 text-4xl border-4 rounded-lg ${hoverColor} ${
-                  selectedMood === mood ? outlineColor : ""
+                  selectedMood === mood ? outlineColor : outlineDefaultColor
                 }`}
                 onClick={() => setSelectedMood(mood)}
               >
