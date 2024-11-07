@@ -1,5 +1,17 @@
+// Copy all into next Group File
+
 import { useState } from "react";
 
+// TODO:
+
+// This will be the main area where you will be making changes to your emoji 
+// board and make it look like whatever aesthetic you're feeling! 
+
+// you would generally only want 12 different emojis on the board, have each 
+// person do one! 
+
+// You will have an emoji and you could go ahead and change the label of what you 
+// would want people to see when you click it.
 const moods = [
   { emoji: "🐼", label: "Panda" },
   { emoji: "🪵", label: "Palm Tree!" },
@@ -15,13 +27,17 @@ const moods = [
   { emoji: "🍃", label: "leaf!" },
 ];
 
-// const outlineColor = "border-blue-200";
+// these are the attributes about the board itself
+// generally you would only want to change the last two words 
+// like where it says white-200 to black-800 etc.
+
 const backgroundBoardColor = "bg-white";
 const outerOutlineColor = "border-gray-200"
-const outlineColor = "border-black";
+const outlineColor = "border-black"; 
 const hoverColor = "hover:bg-slate-100";
 const textColor = "text-black";
 
+// END
 
 
 export default function Example() {
